@@ -1,7 +1,7 @@
 class Notebook.Routers.Notes extends Backbone.Router
-	routet:
+	routes:
 		'': 'index'
 
 	index: ->
-		view = new Notebook.View.NotesIndex()
-		$('#main').html(view.render().el)
+		view = new Notebook.Views.NotesIndex()
+		$('#container').html(view.render().el)

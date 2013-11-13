@@ -1,3 +1,17 @@
-// Place all the styles related to the main controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+#sidebar {
+  width: 300px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-right: 1px solid #CCC;
+}
+
+#main {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 301px;
+}

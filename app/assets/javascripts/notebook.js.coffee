@@ -3,7 +3,9 @@ window.Notebook =
   Collections: {}
   Views: {}
   Routers: {}
-  initialize: -> alert 'Hello from Backbone!'
-
+  initialize: -> 
+  	new Notebook.Routers.Notes()
+  	Backbone.history.start()
+  	
 $(document).ready ->
   Notebook.initialize()
