@@ -1,3 +1,3 @@
 class Note < ActiveRecord::Base
-  attr_accessible :conetent
+  attr_accessible :content
 end
