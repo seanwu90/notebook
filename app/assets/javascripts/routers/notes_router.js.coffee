@@ -9,3 +9,4 @@ class Notebook.Routers.Notes extends Backbone.Router
 	index: ->
 		view = new Notebook.Views.NotesIndex(collection: @collection)
 		$('#container').html(view.render().el)
+		

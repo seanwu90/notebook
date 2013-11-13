@@ -18,6 +18,6 @@ class NotesController < ApplicationController
   end
   
   def destroy
-    respond_with Note.destroy(params[id])
+    respond_with Note.destroy(params[:id])
   end
 end
