@@ -1,6 +1,7 @@
 Notebook::Application.routes.draw do
-  resources :notes
-
+  scope "api" do
+    resources :notes
+  end
 
   root to: "main#index"
 
